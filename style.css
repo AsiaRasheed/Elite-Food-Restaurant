@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Container for background image */
+.background-container {
+  background: url("imges/nav-1.png") center/cover no-repeat fixed;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Black background with opacity */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity as needed */
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.search-bar {
+  /* Your search bar styles */
+  border-radius: 30px;
+  border: 2px solid #ff9f0d;
+  background-color: transparent;
+  color: white;
+}
+
+.glass {
+  /* Your magnifying glass icon styles */
+  margin-right: 20px;
+  margin-top: 10px;
+  position: relative;
+  right: 45px;
+}
+
+.sec-2 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sec-3 {
+  background-color: #0d0d0d;
+}
+/* sec 5 */
+.sec-5-card {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* sec-6 */
+.sec-6 {
+  margin-right: 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff9f0d;
+  background-color: #0d0d0d;
+  border: 0;
+}
+
+.sec-6-w {
+  margin-right: 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #0d0d0d;
+  border: 0;
+}
+
+
+.sec-8 {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .sec-8 {
+    margin-left: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* sec-9 */
+.sec-9-con {
+  position: relative;
+  font-family: Helvetica;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .sec-9-con {
+    text-align: center; /* Center-align content on small screens */
+  }
+
+  .text-block {
+    position: relative; /* Change position to normal flow */
+    bottom: auto;
+    right: auto;
+    margin-top: 0; /* Remove margin for spacing */
+    width: 100%; /* Make the images full width */
+    height: auto;
+    padding: 20px; /* Adjust padding for spacing */
+  }
+}
+

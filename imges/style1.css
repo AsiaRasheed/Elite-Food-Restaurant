@@ -1,0 +1,86 @@
+body {
+  background-color: #0d0d0d;
+}
+
+/* Container for background image */
+.background-container {
+  background: url("imges/nav-1.png") center/cover no-repeat fixed;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Black background with opacity */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.search-bar {
+  /* Your search bar styles */
+  border-radius: 30px;
+  border: 2px solid #ff9f0d;
+  background-color: transparent;
+  color: white;
+}
+
+.glass {
+  /* Your magnifying glass icon styles */
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.sec-2 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sec-3 {
+  background-color: #0d0d0d;
+}
+/* sec 5 */
+.sec-5-card {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* sec-8 */
+.sec-8 {
+  position: absolute;
+  margin-left: 450px;
+  top: -70px;
+}
+
+/* sec-9 */
+.sec-9-con {
+  position: relative;
+  font-family: Helvetica;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .text-block {
+    position: relative; /* Change position to normal flow */
+
+    /* Adjust margin for spacing */
+    margin-top: 60px;
+    width: 100%; /* Make the images full width */
+    height: auto;
+  }
+}
