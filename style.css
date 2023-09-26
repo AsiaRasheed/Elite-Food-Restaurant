@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 /* Container for background image */
 .background-container {
   background: url("imges/nav-1.png") center/cover no-repeat fixed;
